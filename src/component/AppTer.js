@@ -9,7 +9,7 @@ export default class AppTer extends Component {
     return (
       <div>
         {this.state.svalue}
-        <Link to='/navigate'>
+        <Link to='/navigate' sval={this.state.svalue}>
             <button>Submit</button>
         </Link>
       </div>
