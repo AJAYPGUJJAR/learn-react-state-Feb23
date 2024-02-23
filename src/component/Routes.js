@@ -8,7 +8,6 @@ const Routes=()=> {
         <div>
             <ul className='nav nav-pills'>
                 <li><NavLink to="/appter">AppTer</NavLink></li>
-                <li><NavLink to="/apptra">AppTra</NavLink></li>
             </ul>
             <Route path='/appter' exact component={AppTer} />
             <Route path='/navigate' exact component={AppTra} />
